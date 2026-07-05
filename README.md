@@ -20,8 +20,8 @@ The ensemble model combines EfficientNet and DenseNet architectures, achieving a
 ## Models Used
 
 ### 1. MobileNet
-2.InceptionV2 
-3.DenseNet.
+### 2.InceptionV2 
+### 3.DenseNet
 
 ## Dataset
 

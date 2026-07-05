@@ -1,13 +1,12 @@
 # Prediction of Knee Osteoarthritis Severity from X-Ray Images Using Ensemble Learning
 
-This repository contains the code and models for a deep learning-based approach to predict knee osteoarthritis (OA) severity from X-ray images. The model utilizes an ensemble of EfficientNet and DenseNet architectures to enhance classification accuracy, providing a reliable tool for medical diagnosis.
+This repository contains the code and models for a deep learning-based approach to predict knee osteoarthritis (OA) severity from X-ray images. The model utilizes an ensemble of MobileNet and InceptionV2  architectures to enhance classification accuracy, providing a reliable tool for medical diagnosis.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Models Used](#models-used)
 - [Dataset](#dataset)
-- [Results](#results)
-- [Contributors](#contributors)
+
 
 ## Project Overview
 
@@ -20,16 +19,9 @@ The ensemble model combines EfficientNet and DenseNet architectures, achieving a
 
 ## Models Used
 
-### 1. EfficientNet
-- Efficiently scales networks by balancing precision and computational efficiency.
-- Strengths: Suitable for diverse image classification tasks while using fewer computational resources.
-
-### 2. DenseNet
-- Uses dense connections, passing features from every layer to subsequent layers, enhancing parameter efficiency.
-- Strengths: Excels at feature reuse and reduced overfitting.
-
-### Ensemble Model
-The ensemble model averages the predictions of EfficientNet and DenseNet to improve classification accuracy and generalization.
+### 1. MobileNet
+2.InceptionV2 
+3.DenseNet.
 
 ## Dataset
 
@@ -39,18 +31,6 @@ The dataset used in this project consists of knee X-ray images graded using the 
 - **Grade 3**: Moderate OA
 - **Grade 4**: Severe OA
 
-The dataset includes:
-- **Training set**: 5778 images
-- **Testing set**: 1656 images
-- **Validation set**: 826 images
 
-## Results
 
-The ensemble model achieved the following performance metrics:
-- **Accuracy**: 89.76%
-- **Precision (Healthy)**: 90.08%
-- **Recall (Moderate)**: 86.10%
-- **F1-Score (Severe)**: 86.00%
-
-The confusion matrix and ROC curve demonstrate reliable performance across all three categories of knee OA.
 

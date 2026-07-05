@@ -15,7 +15,7 @@ Knee osteoarthritis is a common degenerative joint disease affecting millions gl
 - Moderate OA
 - Severe OA
 
-The ensemble model combines EfficientNet and DenseNet architectures, achieving a classification accuracy of **94.76%** on the test dataset.
+The ensemble model combines MobileNet and InceptionV2 architectures, achieving a good classification accuracy on the test dataset.
 
 ## Models Used
 
